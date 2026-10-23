@@ -10,7 +10,8 @@ export type Mail = { to: string; subject: string; text: string };
 export async function sendMail(mail: Mail): Promise<void> {
   const provider = process.env.MAIL_PROVIDER ?? "console";
   if (provider === "console") {
-    if (process.env.NODE_ENV === "production") {
+    // LOCAL_DEMO: execução local de demonstração (npm run local), que roda o build de produção.
+    if (process.env.NODE_ENV === "production" && process.env.LOCAL_DEMO !== "1") {
       throw new Error("MAIL_PROVIDER=console não é permitido em produção");
     }
     if (process.env.NODE_ENV !== "test") {

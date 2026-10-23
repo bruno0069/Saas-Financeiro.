@@ -7,6 +7,7 @@
     "node": ">=20.11"
   },
   "scripts": {
+    "local": "tsx scripts/local.ts",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -37,6 +38,7 @@
     "@types/pg": "8.23.1",
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2",
+    "embedded-postgres": "16.14.0-beta.17",
     "tailwindcss": "4.3.3",
     "tsx": "4.23.15",
     "typescript": "5.9.3",

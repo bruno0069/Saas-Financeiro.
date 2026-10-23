@@ -8,6 +8,9 @@ versão: **Padaria** (fechamento de caixa e produção/margens).
 > Estado: base funcional para **piloto controlado**. Ainda **não** está pronta para produção
 > comercial — ver [Limitações conhecidas](#limitações-conhecidas) e [Integrações pendentes](#integrações-pendentes).
 
+> **Só quer abrir o programa?** Veja [COMO-ABRIR.md](COMO-ABRIR.md): instale o Node.js e clique em
+> `Iniciar (Windows).bat` ou `Iniciar (Mac).command` — banco, dados de demonstração e navegador são preparados automaticamente.
+
 ## O que está pronto (implementado e testado)
 
 * **Fundação**: cadastro/login (scrypt, sessões no banco), confirmação de e-mail, recuperação de
